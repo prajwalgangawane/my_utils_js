@@ -47,8 +47,8 @@ async function getDatafromExcel(file) {
     //   "https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js",
     // ];
     const libs = [
-        "https://raw.githubusercontent.com/prajwalgangawane/my_utils_js/main/js/excel/jszip.js",
-        "https://raw.githubusercontent.com/prajwalgangawane/my_utils_js/main/js/excel/xlsx.js",
+        "https://raw.githubusercontent.com/prajwalgangawane/my_utils_js/main/js/excel/deps/jszip.js",
+        "https://raw.githubusercontent.com/prajwalgangawane/my_utils_js/main/js/excel/deps/xlsx.js",
     ];
     const data_from_file = () =>
         new Promise((resolve, reject) => {
