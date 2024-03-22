@@ -64,6 +64,8 @@ async function getDatafromExcel(file) {
                 delete window.file;
                 delete window[ext];
                 delete reader;
+                delete getDatafromExcel;
+                delete load_ui;
                 resolve(data);
             };
             reader.readAsBinaryString(file);
